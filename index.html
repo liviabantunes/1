@@ -3,38 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulary</title>
 </head>
-<form action="https://formspree.io/f/manwbqny" method="post"> 
-
-
 <body>
-</form>
-    <p>Digite seu nome completo</p>
-<input type="text" name="nome" placeholder="Rhuan Pinto Virgens" required>
+    <form action="https://formspree.io/f/mvgpqzod" method="post">
+        <p>Digite seu nome</p>
+<input type="text" name="nome" placeholder="Gustavo Henrique Ganz " required>
 <br>
-<p>Digite seu email</p>
-<input type="email" name="email" value="@escola.pr.gov.br">
+<input type="email" name="e-mail" value="@escola.pr.gov.br">
 <br>
-<p>Digite seu número de telefone</p>
-<input type="number" name="phone" placeholder="(ddd) XXXX-XXXX">
- <br>
-<p>Você trabalha?</p>
-<input type="radio" name="work?" value="Sim"> Sim
-<input type="radio" name="work?" value="Não"> Não
+<input type="number" name="phone" placeholder="(ddd) XXXXX-XXXX">
 <br>
+<input type="radio" name="work?" value="Sim" checked> Com certeza
+<input type="radio" name="work?" value="Não"> Sem certeza
+ 
 <br>
-Seu estado
 <select name="estado">
-<option value="1">Acre</option>
-<option value="2">Rio de Janeiro</option>
-<option value="3">São Paulo</option>
-<option value="4">Paraná</option>
-<option value="5">Amazonas</option>
-<option value="6">Tocantins</option>
-<br>
+<option value="1">Paraná</option>
+<option value="2">São Paulo</option>
+<option value="3">Rio de janeiro</option>
+<option value="4">Santa Catarina</option>
+<option value="5">Rio Grande do Sul</option>
+<option value="6">Minas Gerais</option>
 </select>
-<br>
 <br>
 <p>Sua idade</p>
 
@@ -47,18 +38,13 @@ Seu estado
 <option value="6">entre 25 a 30</option>
 <option value="7">30+</option>
 <br>
-</select>
-<section>
-
-
-<p>Reclame aqui</p>
-<textarea name="feedback" placeholder="Avaliação"></textarea>
+<textarea name="feedback"></textarea>
 <br>
-<input type="checkbox" name="novidades" checked> Aceito receber novidadesda empresa
- 
+<input type="checkbox" name="novidades" checked> Aceito receber novidades da empresa.
+<br>
 <button type="submit">Enviar</button>
-   <button type="submit">Apagar</button>
+<button type="reset">Apagar</button>
+    </form>
 
-</section>
 </body>
 </html>
